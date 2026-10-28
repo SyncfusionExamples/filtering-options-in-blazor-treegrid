@@ -113,3 +113,28 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+/* TreeGrid: keep the filter icon adjacent to the header text, vertically centered */
+.e-treegrid .e-headercell .e-headercell-container {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start !important;
+}
+
+.e-treegrid .e-headercell .e-headercelldiv {
+    flex: 0 1 auto;
+    width: auto;
+    padding-right: 0;
+}
+
+.e-treegrid .e-headercell .e-headercelldiv.e-rightalign {
+    margin-left: auto;
+}
+
+.e-treegrid .e-headercell .e-filtermenudiv {
+    position: static;
+    flex: 0 0 auto;
+    margin-left: 4px !important;
+    margin-right: 0 !important;
+    float: none !important;
+    right: auto !important;
+}
