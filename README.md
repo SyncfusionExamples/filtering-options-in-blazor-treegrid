@@ -8,11 +8,11 @@ This sample explains about how to work with filtering options available in the S
 
 ## Prerequisites
 
-* Visual Studio 2022
+* Visual Studio 2026 or Visual Studio 2022 (17.14+) with .NET 10 SDK
 
 ## How to run the project
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
+* Open the solution file using the Visual Studio 2026 or Visual Studio 2022 (17.14+) with .NET 10 SDK.
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.
